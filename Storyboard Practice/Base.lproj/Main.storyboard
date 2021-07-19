@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Storyboard_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="KbL-d1-6aK">
+                                <rect key="frame" x="250" y="478" width="177.5" height="182.5"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="4Hp-9p-XhO"/>
+                                    <constraint firstAttribute="width" constant="20" id="5kd-SS-wjM"/>
+                                    <constraint firstAttribute="width" secondItem="KbL-d1-6aK" secondAttribute="height" multiplier="1:1" id="ZiD-s0-SrD"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="cVB-36-jyq"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="klo-kl-KbI"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="n5P-wn-g6K"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suit.heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HgW-kX-WOL">
+                                <rect key="frame" x="300" y="203.5" width="82.5" height="257.5"/>
+                                <color key="tintColor" systemColor="systemPinkColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track Your Heart Health" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYg-Uq-a93">
+                                <rect key="frame" x="92" y="54" width="208.5" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="kfM-lm-v6c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                </variation>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="iw3-A6-hj3">
+                                <rect key="frame" x="127.5" y="862" width="130" height="5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="cxz-2S-coD"/>
+                                    <constraint firstAttribute="width" constant="130" id="pzf-qy-SWb"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" systemColor="systemGray3Color"/>
+                                <color key="currentPageIndicatorTintColor" name="AccentColor"/>
+                            </pageControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HgW-kX-WOL" secondAttribute="trailing" constant="28" id="1Pr-kU-LjL"/>
+                            <constraint firstItem="CYg-Uq-a93" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1jb-6I-kt8"/>
+                            <constraint firstItem="iw3-A6-hj3" firstAttribute="top" secondItem="KbL-d1-6aK" secondAttribute="bottom" constant="150" id="7aW-1y-hm5"/>
+                            <constraint firstItem="HgW-kX-WOL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="300" id="9a3-b5-tch"/>
+                            <constraint firstItem="KbL-d1-6aK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="Dwb-Gv-CFZ"/>
+                            <constraint firstItem="iw3-A6-hj3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="5" id="Eg8-sX-xNp"/>
+                            <constraint firstAttribute="trailing" secondItem="iw3-A6-hj3" secondAttribute="trailing" constant="130" id="FOe-FZ-wge"/>
+                            <constraint firstItem="KbL-d1-6aK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="250" id="NBV-z9-QcP"/>
+                            <constraint firstItem="iw3-A6-hj3" firstAttribute="top" secondItem="KbL-d1-6aK" secondAttribute="bottom" constant="200" id="NiB-ht-a4z"/>
+                            <constraint firstItem="HgW-kX-WOL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="O1l-ki-Xjs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iw3-A6-hj3" secondAttribute="trailing" constant="130" id="OX7-Se-RMq"/>
+                            <constraint firstItem="CYg-Uq-a93" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="RHa-Lg-uqo"/>
+                            <constraint firstItem="KbL-d1-6aK" firstAttribute="top" secondItem="HgW-kX-WOL" secondAttribute="bottom" constant="15" id="RTL-Xi-lhh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KbL-d1-6aK" secondAttribute="bottom" constant="200" id="UmX-Ts-5CB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KbL-d1-6aK" secondAttribute="bottom" constant="200" id="Uue-mQ-3hq"/>
+                            <constraint firstItem="HgW-kX-WOL" firstAttribute="top" secondItem="CYg-Uq-a93" secondAttribute="bottom" constant="84" id="aaz-QQ-y9o"/>
+                            <constraint firstAttribute="trailing" secondItem="iw3-A6-hj3" secondAttribute="trailing" constant="20" symbolic="YES" id="chm-6l-Fi9"/>
+                            <constraint firstItem="KbL-d1-6aK" firstAttribute="top" secondItem="HgW-kX-WOL" secondAttribute="bottom" constant="20" id="d7r-sg-6ti"/>
+                            <constraint firstItem="iw3-A6-hj3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="e9V-mz-exv"/>
+                            <constraint firstItem="CYg-Uq-a93" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="h9O-4u-NyP"/>
+                            <constraint firstItem="CYg-Uq-a93" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="hde-pz-zwV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HgW-kX-WOL" secondAttribute="trailing" constant="100" id="hiA-18-Psh"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="KbL-d1-6aK" secondAttribute="bottom" constant="304.5" id="iRz-id-Ur9"/>
+                            <constraint firstAttribute="trailing" secondItem="KbL-d1-6aK" secondAttribute="trailing" constant="130" id="kAw-Us-H4i"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HgW-kX-WOL" secondAttribute="trailing" constant="5" id="odR-SM-cFh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KbL-d1-6aK" secondAttribute="bottom" constant="200" id="orf-Wn-5iH"/>
+                            <constraint firstItem="KbL-d1-6aK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="40" id="orf-os-UPt"/>
+                            <constraint firstItem="iw3-A6-hj3" firstAttribute="top" secondItem="HgW-kX-WOL" secondAttribute="bottom" constant="400" id="urv-3k-Atu"/>
+                            <constraint firstItem="KbL-d1-6aK" firstAttribute="top" secondItem="HgW-kX-WOL" secondAttribute="bottom" constant="15" id="xf5-Eb-mT5"/>
+                            <constraint firstItem="CYg-Uq-a93" firstAttribute="centerX" secondItem="iw3-A6-hj3" secondAttribute="centerX" constant="4" id="xuJ-7U-f9m"/>
+                            <constraint firstItem="HgW-kX-WOL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="300" id="z3F-Wg-MLv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="63.616071428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="suit.heart.fill" catalog="system" width="128" height="109"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

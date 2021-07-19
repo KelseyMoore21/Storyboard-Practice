@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NH_D3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelsey Moore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foF-tJ-AYx">
+                                <rect key="frame" x="106" y="99" width="193" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="4qH-BQ-H5J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guitars" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="yud-bN-t4b">
+                                <rect key="frame" x="87" y="218" width="240" height="128"/>
+                                <color key="tintColor" red="0.0" green="1" blue="0.84028425460779044" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="gdO-wd-QbL"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUa-yG-rHU">
+                                <rect key="frame" x="20" y="788" width="75" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="BoI-hF-4r7"/>
+                                </constraints>
+                                <state key="normal" title="Hobbies">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="hobbiesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="swi-ty-Cpc"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="books.vertical" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3a6-4A-Grx">
+                                <rect key="frame" x="87" y="370" width="240" height="128"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="sMw-0A-Yva"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5MT-wl-4ha">
+                                <rect key="frame" x="130" y="787" width="142" height="30"/>
+                                <state key="normal" title="Personal Information"/>
+                                <connections>
+                                    <action selector="interestsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vsC-Jo-a2a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwA-LL-iXa">
+                                <rect key="frame" x="-240" y="373" width="634" height="443"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="My favorite colors are blue and purple. My hobbies include reading, playing guitar, and volunteering at a boarding house."/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv.music.note.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="X1f-Pi-Xvb">
+                                <rect key="frame" x="87" y="519" width="240" height="128"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="QfO-q1-1vf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbU-Lm-mgC">
+                                <rect key="frame" x="321" y="788" width="62" height="30"/>
+                                <state key="normal" title="Favorites"/>
+                                <connections>
+                                    <action selector="favsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WSR-zs-Fjh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3a6-4A-Grx" firstAttribute="leading" secondItem="X1f-Pi-Xvb" secondAttribute="leading" id="3Ry-Ub-3CJ"/>
+                            <constraint firstItem="5MT-wl-4ha" firstAttribute="leading" secondItem="nUa-yG-rHU" secondAttribute="trailing" constant="35" id="3eQ-7f-tKp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nUa-yG-rHU" secondAttribute="bottom" constant="44" id="DXI-6f-YS6"/>
+                            <constraint firstItem="yud-bN-t4b" firstAttribute="trailing" secondItem="3a6-4A-Grx" secondAttribute="trailing" id="DqI-P6-8ad"/>
+                            <constraint firstItem="X1f-Pi-Xvb" firstAttribute="top" secondItem="3a6-4A-Grx" secondAttribute="bottom" constant="20.5" id="ElJ-Tz-97G"/>
+                            <constraint firstItem="yud-bN-t4b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="IKr-rb-vBV"/>
+                            <constraint firstItem="3a6-4A-Grx" firstAttribute="top" secondItem="yud-bN-t4b" secondAttribute="bottom" constant="25" id="K3j-Q6-Ned"/>
+                            <constraint firstItem="yud-bN-t4b" firstAttribute="top" secondItem="foF-tJ-AYx" secondAttribute="bottom" constant="39" id="L0G-8t-dY8"/>
+                            <constraint firstItem="foF-tJ-AYx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="L1a-RS-ZeP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="foF-tJ-AYx" secondAttribute="trailing" constant="115" id="MTb-cA-g4X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5MT-wl-4ha" secondAttribute="bottom" constant="45" id="Pon-Wo-Yro"/>
+                            <constraint firstItem="yud-bN-t4b" firstAttribute="leading" secondItem="3a6-4A-Grx" secondAttribute="leading" id="Tt8-Z7-BKW"/>
+                            <constraint firstItem="foF-tJ-AYx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="VFa-Rz-Gci"/>
+                            <constraint firstItem="yud-bN-t4b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="foN-AA-fba"/>
+                            <constraint firstItem="CbU-Lm-mgC" firstAttribute="leading" secondItem="5MT-wl-4ha" secondAttribute="trailing" constant="49" id="gTk-53-uPE"/>
+                            <constraint firstItem="nUa-yG-rHU" firstAttribute="baseline" secondItem="CbU-Lm-mgC" secondAttribute="baseline" id="nql-fB-Z78"/>
+                            <constraint firstItem="nUa-yG-rHU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pC3-bP-h36"/>
+                            <constraint firstItem="3a6-4A-Grx" firstAttribute="trailing" secondItem="X1f-Pi-Xvb" secondAttribute="trailing" id="rez-j5-lLH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="DwA-LL-iXa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="appTitle" destination="foF-tJ-AYx" id="65V-71-Rrv"/>
+                        <outlet property="bookPic" destination="3a6-4A-Grx" id="kp6-pF-thI"/>
+                        <outlet property="guitarPic" destination="yud-bN-t4b" id="GgK-O7-ubN"/>
+                        <outlet property="musicPic" destination="X1f-Pi-Xvb" id="9F7-9S-DXf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="76.339285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="books.vertical" catalog="system" width="128" height="103"/>
+        <image name="guitars" catalog="system" width="128" height="100"/>
+        <image name="tv.music.note.fill" catalog="system" width="128" height="97"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
