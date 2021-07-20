@@ -1,36 +1,57 @@
 //
 //  To Do List TableViewController.swift
-//  To Do List
+// To Do List
 //
 //  Created by Kelsey Harris on 7/19/21.
 //
 
 import UIKit
 
-//class To_Do_List_TableViewController: UITableViewController {
+class ToDo {
+    var name = "To Do"
+    var important = false
+    var toDos : [ToDo] = []
 
+func createToDos() -> [ToDo] {
 
- //   override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-//        return 3
-  //  }
+    let swift = To_Do_List.ToDo()
+  swift.name = "Learn Swift"
+  swift.important = true
 
-//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-   //     return 5
+    let dog = To_Do_List.ToDo()
+  dog.name = "Walk the Dog"
+  // important is set to false by default
+
+  return [swift, dog]
+}
+    func viewDidLoad(){
+    override func viewDidLoad() {
+      super.viewDidLoad()
+
+      toDos = createToDos()
+    }
+}
+  //override func numberOfSections(in tableView: UITableView) -> Int {
+        
+ //       return 3
    // }
 
+ //  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+  // return 5
+//   }
+
     
-  //  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
+//  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//       let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
 
-  //      cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
+   //     cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
 
-  //      return cell
+ //      return cell
       
-  //      override func tableView(_
-       //                         tableView: UITableView, titleForHeaderInSection: Int) ->String?{
-// }
+  //     override func tableView(_
+ //                              tableView: UITableView, titleForHeaderInSection: Int) ->String?{
+ // }
     
 
     /*
