@@ -18,6 +18,7 @@
 		04A032A926A631A1007ABC82 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A032A826A631A1007ABC82 /* TableViewController.swift */; };
 		04A032AD26A63AE4007ABC82 /* 2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A032AC26A63AE4007ABC82 /* 2ViewController.swift */; };
 		04A032AF26A707ED007ABC82 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A032AE26A707ED007ABC82 /* ToDo.swift */; };
+		04A032B126A712C0007ABC82 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A032B026A712C0007ABC82 /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		04A032A826A631A1007ABC82 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		04A032AC26A63AE4007ABC82 /* 2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ViewController.swift; sourceTree = "<group>"; };
 		04A032AE26A707ED007ABC82 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		04A032B026A712C0007ABC82 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				04A0328326A62E4F007ABC82 /* LaunchScreen.storyboard */,
 				04A0328626A62E4F007ABC82 /* Info.plist */,
 				04A0327E26A62E48007ABC82 /* __To_Do_List.xcdatamodeld */,
+				04A032B026A712C0007ABC82 /* CompleteToDoViewController.swift */,
 				04A032AC26A63AE4007ABC82 /* 2ViewController.swift */,
 				04A032A826A631A1007ABC82 /* TableViewController.swift */,
 				04A032AE26A707ED007ABC82 /* ToDo.swift */,
@@ -270,6 +273,7 @@
 				04A0327626A62E48007ABC82 /* AppDelegate.swift in Sources */,
 				04A032AD26A63AE4007ABC82 /* 2ViewController.swift in Sources */,
 				04A0327826A62E48007ABC82 /* SceneDelegate.swift in Sources */,
+				04A032B126A712C0007ABC82 /* CompleteToDoViewController.swift in Sources */,
 				04A032AF26A707ED007ABC82 /* ToDo.swift in Sources */,
 				04A0328026A62E48007ABC82 /* __To_Do_List.xcdatamodeld in Sources */,
 				04A032A926A631A1007ABC82 /* TableViewController.swift in Sources */,
